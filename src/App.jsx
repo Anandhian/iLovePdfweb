@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
 
-import SplitPdf from './components/SplitPdf';
-import CompressPdf from './components/CompressPdf';
-import ConvertPdf from './components/ConvertPdf';
-import AllPdfTools from './components/AllPdfTools';
+import SplitPdf from './Components/SplitPdf';
+import CompressPdf from './Components/CompressPdf';
+import ConvertPdf from './Components/ConvertPdf';
+import AllPdfTools from './Components/AllPdfTools';
 import Home from './pages/Home';
 import MergePdf from './Components/MergePdf';
 
