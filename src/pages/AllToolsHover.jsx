@@ -1,25 +1,25 @@
 import Organize from '../Components/Organize';
 import OptimizePdf from '../Components/OptimizePdf';
 import ConvertToPdf from '../Components/ConvertToPdf';
-import Convertfrompdf from '../Components/Convertfrompdf';
+import ConvertFromPdf from '../Components/ConvertFromPdf'; 
 import PdfSecurity from '../Components/PdfSecurity';
-import EditPdf from '../Components/EditPdf'
+import EditPdf from '../Components/EditPdf';
 
 const AllToolsHover = () => {
   return (
     <div>
       <div className='flex'>
-         <Organize />
-            <OptimizePdf />
-            <ConvertToPdf />
-            <Convertfrompdf></Convertfrompdf>
-            
-            <EditPdf></EditPdf>
-            <PdfSecurity></PdfSecurity>
+        <Organize />
+        <OptimizePdf />
+        <ConvertToPdf />
+        <ConvertFromPdf /> 
+        <EditPdf />
+        <PdfSecurity />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AllToolsHover
+export default AllToolsHover;
+
 
