@@ -1,15 +1,17 @@
-import React from 'react';
+
 
 const Home3 = () => {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-semibold text-center mb-8">Looking for another solution?</h1>
+    <div className="px-4 py-12 sm:px-8 md:px-16 lg:px-28 bg-white">
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-center mb-8">
+        Looking for another solution?
+      </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6 mt-12 md:mt-16">
         {/* Desktop */}
         <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-          <p className="text-xl font-bold mb-2">iLovePDF Desktop</p>
-          <p className="text-gray-700">
+          <p className="text-lg sm:text-xl font-bold mb-2">iLovePDF Desktop</p>
+          <p className="text-gray-700 leading-7">
             Download the{' '}
             <a className="text-red-500 underline" href="#">
               iLovePDF Desktop App
@@ -21,8 +23,8 @@ const Home3 = () => {
 
         {/* Mobile */}
         <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-          <p className="text-xl font-bold mb-2">iLovePDF Mobile</p>
-          <p className="text-gray-700">
+          <p className="text-lg sm:text-xl font-bold mb-2">iLovePDF Mobile</p>
+          <p className="text-gray-700 leading-7">
             Get the{' '}
             <a className="text-red-500 underline" href="#">
               iLovePDF Mobile
@@ -34,8 +36,8 @@ const Home3 = () => {
 
         {/* iLoveIMG */}
         <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-          <p className="text-xl font-bold mb-2">iLoveIMG</p>
-          <p className="text-gray-700">
+          <p className="text-lg sm:text-xl font-bold mb-2">iLoveIMG</p>
+          <p className="text-gray-700 leading-7">
             <a className="text-red-500 underline" href="#">
               iLoveIMG
             </a>{' '}
@@ -49,3 +51,5 @@ const Home3 = () => {
 };
 
 export default Home3;
+
+

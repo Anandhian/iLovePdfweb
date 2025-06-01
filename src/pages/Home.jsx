@@ -1,10 +1,14 @@
-import React from 'react';
+
+import Footer from './Footer';
 import Home2 from './Home2';
 import Home3 from './Home3';
+import Home4 from './Home4';
+import Home5 from './Home5';
+import Home6 from './Home6';
 
 const Home = () => {
   return (
-    <div className="w-full mt-4 h-full px-6">
+    <div className="w-full  h-full  px-6 background">
       <div>
          <h1 className="text-center font-semibold text-gray-700 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
         Every tool you need to work with PDFs in one place
@@ -18,8 +22,20 @@ const Home = () => {
       <div>
         <Home2></Home2>
       </div>
-      <div>
+      <div className=''>
         <Home3></Home3>
+      </div>
+      <div>
+        <Home4></Home4>
+      </div>
+      <div>
+        <Home5></Home5>
+      </div>
+      <div>
+        <Home6></Home6>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
      
     </div>
