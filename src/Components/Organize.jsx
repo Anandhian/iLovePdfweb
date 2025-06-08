@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 import mergepdf from '../assets/download.jpeg';
 import split from '../assets/split.jpeg';
 import removepages from '../assets/removepages.jpeg';
@@ -9,12 +10,12 @@ import organizepdf from '../assets/Organizepdf.jpeg';
 import scantopdf from '../assets/scantopdf.jpeg';
 
 const tools = [
-  { img: mergepdf, label: 'Merge PDF', path: '/merge-pdf' },
-  { img: split, label: 'Split PDF', path: '/split-pdf' },
-  { img: removepages, label: 'Remove Pages', path: '/remove-pages' },
-  { img: extrapages, label: 'Extract Pages', path: '/extract-pages' },
-  { img: organizepdf, label: 'Organize PDF', path: '/organize-pdf' },
-  { img: scantopdf, label: 'Scan PDF', path: '/scan-pdf' },
+  { img: mergepdf, label: 'Merge PDF', path: 'mergepdf' },
+  { img: split, label: 'Split PDF', path: 'split-pdf' },
+  { img: removepages, label: 'Remove Pages', path: 'remove-pages' },
+  { img: extrapages, label: 'Extract Pages', path: 'extract-pages' },
+  { img: organizepdf, label: 'Organize PDF', path: 'organize-pdf' },
+  { img: scantopdf, label: 'Scan PDF', path: 'scan-pdf' },
 ];
 
 const Organize = () => {
@@ -24,7 +25,7 @@ const Organize = () => {
       <div className="flex flex-col gap-2">
         {tools.map((tool, index) => (
           <Link
-            to={tool.path}
+            to={`/${tool.path}`}
             key={index}
             className="flex items-center gap-1 hover:bg-gray-100 p-2 rounded-md transition-colors"
           >
@@ -38,6 +39,7 @@ const Organize = () => {
 };
 
 export default Organize;
+
 
 
 

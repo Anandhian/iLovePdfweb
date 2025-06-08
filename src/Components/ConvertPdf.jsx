@@ -2,7 +2,7 @@ import React from 'react'
 
 const ConvertPdf = () => {
   return (
-    <div>ConvertPdf</div>
+    <div className="hover:text-red-500 transition-colors duration-200">ConvertPdf</div>
   )
 }
 

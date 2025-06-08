@@ -12,7 +12,7 @@ const DropdownWrapper = () => {
       onMouseLeave={() => setIsOpen(false)}
     >
       <div className="flex items-center gap-1 cursor-pointer">
-        <span>Convert PDF</span>
+        <span className="hover:text-red-500 transition-colors duration-200">Convert PDF</span>
         <MdArrowDropDown />
       </div>
 

@@ -7,13 +7,14 @@ const HoverMenu = () => {
 
   return (
     <div
-      className="relative"
+      className="relative group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <Icon />
+
       {isHovered && (
-        <div className="absolute top-full mt-2 left-0 z-50 bg-white shadow-lg rounded-md">
+        <div className="absolute top-full left-0 mt-2 z-50 w-[700px] max-w-screen-sm bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden">
           <MenuHover />
         </div>
       )}
@@ -22,3 +23,5 @@ const HoverMenu = () => {
 };
 
 export default HoverMenu;
+
+

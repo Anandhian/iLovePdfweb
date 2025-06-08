@@ -8,9 +8,9 @@ import Home6 from './Home6';
 
 const Home = () => {
   return (
-    <div className="w-full  h-full  px-6 background">
+    <div className="w-full  h-full   px-6 background">
       <div>
-         <h1 className="text-center font-semibold text-gray-700 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+         <h1 className="text-center font-semibold mt-5 text-gray-700 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
         Every tool you need to work with PDFs in one place
       </h1>
       <p className="text-center mt-4 text-xl max-w-5xl mx-auto text-gray-700 break-words">
